@@ -30,3 +30,4 @@ def depth_first_traversal(node):
         depth_first_traversal(node.get_left())
     if node.right != None: 
         depth_first_traversal(node.get_right())
+ 
